@@ -10,7 +10,7 @@ import { PrivadaPageComponent } from './componentes/privada-page/privada-page.co
 const routes: Routes = [
   {path: '', component: HomePageComponent},
   {path: 'login', component: LoginPageComponent},
-  {path: 'regitro', component: RegisterPageComponent},
+  {path: 'registro', component: RegisterPageComponent},
   {path: 'privada', component: PrivadaPageComponent},
   {path: '**', component: NotFoundPageComponent}
 ];

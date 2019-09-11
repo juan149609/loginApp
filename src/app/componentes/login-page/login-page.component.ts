@@ -57,8 +57,8 @@ export class LoginPageComponent implements OnInit {
     });
   }
 
-  onClickTwitterlogin(){
-    this.authservice.loginTwitter()
+  onClickGitHublogin(){
+    this.authservice.loginGitHub()
     .then(res => {
       this.flashMessagesService.show('Usuario logado corectamente', 
                                     {cssClass: 'alert-success', timeout: 4000});
